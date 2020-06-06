@@ -41,3 +41,5 @@ class ToString {
   /// The line indent
   final String indent;
 }
+
+const toString = ToString();

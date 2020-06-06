@@ -12,6 +12,12 @@ String _$CatToString(Cat o) {
 
 String _$BallToString(Ball o) {
   return """Ball{
-  color: ${o.color.toString().split("\n").join("\n  ")},
+  color: ${o.color},
+}""";
+}
+
+String _$MouseToString(Mouse o) {
+  return """Mouse{
+  name: ${o.name},
 }""";
 }

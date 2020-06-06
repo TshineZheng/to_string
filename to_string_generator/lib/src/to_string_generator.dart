@@ -15,7 +15,7 @@ class ToStringGenerator extends GeneratorForAnnotation<ToString> {
   final String indent;
 
   @override
-  generateForAnnotatedElement(
+  dynamic generateForAnnotatedElement(
       Element element, ConstantReader annotation, BuildStep buildStep) {
     final clazz = element;
 

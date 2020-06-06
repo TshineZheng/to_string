@@ -56,3 +56,15 @@ class Ball {
     return _$BallToString(this);
   }
 }
+
+@toString
+class Mouse{
+  final String name;
+
+  Mouse(this.name);
+
+  @override
+  String toString() {
+    return _$MouseToString(this);
+  }
+}
